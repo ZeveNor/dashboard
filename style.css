@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+.header-container{
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: solid rgb(216, 209, 209);
+  height: 60px;
+  width: 84vw;
+}
+.search-box{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 10px;
+  border: solid 1px;
+  width: 300px;
+  vertical-align: top;
+  height: 40px;
+}
+.search-box p{
+  display: inline;
+}
+.search-box .search{
+  width: 40px;
+  height: 100%; 
+  float: right;
+  background-color: rgb(101, 101, 252);
+}
+.search-box .search .icon{
+  height: 20px;
+  width: 20px;
+  margin: 9px;
+  border-radius: 30px;
+  border: solid 1px;
+}
+.header-container .right-container{
+  margin-top: 10px;
+  width: 300px;
+  float: right;
+  display: inline-block;
+  vertical-align: top;
+  height: 40px;
+}
+.right-container .icon-1{
+  display: inline-block;
+  border: 1px solid;
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+}
+.right-container .profile{
+  display: inline-block; 
+  float: right;
+  height: 20px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.right-container .profile p{
+  display: inline-block;
+  margin: 3px;
+}
+.right-container .profile .icon{
+  display: inline-block;
+  vertical-align: top;
+  margin: 2px;
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  border: 1px solid;
+}
+.navbar .logo{
+  height: 60px;
+}
+.navbar p{
+  margin-left: 20px;
+}
+.navbar .logo p{
+  display: inline-block;
+  margin-left: 10px;
+}
+.navbar .logo .icon{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-top: 18px;
+  margin-left: 30px;
+  border-radius: 30px;
+  border: solid 2px;
+}
+.navbar{
+  display: inline-block;
+  width: 270px;
+  height: 100vh;
+  background-color: slateblue;
+}
