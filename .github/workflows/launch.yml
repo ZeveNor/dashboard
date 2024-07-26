@@ -41,5 +41,5 @@ jobs:
           status: ${{ job.status }}
           description: ${{ github.event.head_commit.message }}
           color: 0x37ff77
-          url: "https://zevenor.github.io/Awesome-Travel-Place/"
+          url: "https://zevenor.github.io/dashboard/"
           title: "[Launched] Build Completed🚀"
