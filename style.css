@@ -230,19 +230,22 @@ body,p,h1,h2,h3,h4,h5,div,header{
 
 /* Summary card css */
 .summary-card{
-  margin: 0 13px;
+  margin: 0 23px;
 }
 .summary-card .card{
   display: inline-block;
   vertical-align: top;
   width: 20vw;
   height: 100px;
-  margin: 0 9px;
+  margin: 0;
   border-radius: 5px;
   border-left: 4px solid;
   background-color: white;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.09);
   overflow: hidden;
+}
+.summary-card .margin{
+  margin-right: 24px;
 }
 /*  */
 
